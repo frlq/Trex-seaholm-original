@@ -1,0 +1,251 @@
+{
+  "objects": {
+    "47699d9e-18a5-4f88-a4f9-b8be92e8f74a": {
+      "components": {},
+      "geometry": null,
+      "id": "47699d9e-18a5-4f88-a4f9-b8be92e8f74a",
+      "light": {
+        "type": "ambient"
+      },
+      "material": null,
+      "name": "Ambient Light",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "order": 0.34633694965140926,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2"
+    },
+    "a608ddd9-9379-464d-966f-5d8d8674c83c": {
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "AR",
+          "phone": "AR",
+          "world": {
+            "enableVps": true
+          }
+        }
+      },
+      "components": {},
+      "geometry": null,
+      "id": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "material": null,
+      "name": "Camera",
+      "position": [
+        1.6727950034148567,
+        1.5494421338197388,
+        6.820029855918676
+      ],
+      "rotation": [
+        -1.8412919444518387e-17,
+        0.9537169517857893,
+        -0.30070579621354565,
+        -5.839832572618051e-17
+      ],
+      "scale": [
+        0.9999998646558023,
+        0.9999999931513284,
+        0.9999998715044741
+      ],
+      "order": 1.3463369496514093,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2"
+    },
+    "ac1989e3-3b71-49e2-a05f-e682aeb18c36": {
+      "components": {},
+      "geometry": null,
+      "id": "ac1989e3-3b71-49e2-a05f-e682aeb18c36",
+      "light": {
+        "intensity": 1,
+        "type": "directional",
+        "shadowBias": 0
+      },
+      "material": null,
+      "name": "Directional Light",
+      "position": [
+        -16.484550479594475,
+        24.287114514717572,
+        -24.017222582911174
+      ],
+      "rotation": [
+        0,
+        0.8479261700136519,
+        0,
+        0.5301143369179706
+      ],
+      "scale": [
+        1.0000000000000009,
+        1,
+        1.0000000000000009
+      ],
+      "order": 2.346336949651409,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2"
+    },
+    "1d65ffb7-8ac2-4d4f-bcaf-2cd3a530fddc": {
+      "id": "1d65ffb7-8ac2-4d4f-bcaf-2cd3a530fddc",
+      "position": [
+        0,
+        0,
+        -10.943292725876207
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "e4bde5d1-83f0-489f-bc23-f322a3163af2",
+      "components": {
+        "fcd89aff-659f-46e0-bb4d-63d7cf5513c0": {
+          "id": "fcd89aff-659f-46e0-bb4d-63d7cf5513c0",
+          "name": "location-anchor",
+          "parameters": {}
+        }
+      },
+      "name": "Seaholm: A Brief History",
+      "location": {
+        "name": "seaholm:-a-b-f963",
+        "poiId": "f96380bc1a5344a9afbde73e70252902.16",
+        "lat": 30.266659999999998,
+        "lng": -97.75313299999999,
+        "title": "Seaholm: A Brief History",
+        "anchorNodeId": "3D5D4025005242DDA15348C80095B12E",
+        "anchorSpaceId": "0A76CEA692ED48B29E283251107EC3FB",
+        "imageUrl": "https://lh3.googleusercontent.com/nIbLsE2VsbjcscW48UWCqpzbjzZAPgyxZ9vhZfL3IUJY5cvj32bxiegntRR_zEfD8ZUN3r5Uh7HhFipxAhJaWW5fZg",
+        "anchorPayload": "ChQIlKzQsJvLt6ZEEJe19ezelfn2ZRiWn5mS5DIqJwoVCL26gaqCwJSh3QEQoaehwoyg5dguEgkKABIFJQAAgD8dAACAPzISEXakZkdHRD5AGRmc3/czcFjA",
+        "visualization": "mesh"
+      }
+    },
+    "88d3a703-0e80-4647-ba66-d4cb0646075a": {
+      "id": "88d3a703-0e80-4647-ba66-d4cb0646075a",
+      "position": [
+        -2.0626325626266793,
+        0.010217006104705106,
+        -6.828884188869287
+      ],
+      "rotation": [
+        0,
+        0.27641440421293945,
+        0,
+        0.9610385409251835
+      ],
+      "scale": [
+        8,
+        8,
+        8
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1d65ffb7-8ac2-4d4f-bcaf-2cd3a530fddc",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Stevie.glb"
+        },
+        "animationClip": "*",
+        "loop": true,
+        "timeScale": 1
+      },
+      "name": "Stevie.glb (1)"
+    },
+    "8cdbf343-35fa-4ddc-81c5-ddc90310cc78": {
+      "id": "8cdbf343-35fa-4ddc-81c5-ddc90310cc78",
+      "position": [
+        -3.035653948022455,
+        0.6554568784319195,
+        -6.49080003331146
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1d65ffb7-8ac2-4d4f-bcaf-2cd3a530fddc",
+      "components": {},
+      "audio": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Ladybird_Seaholm_VO.mp3"
+        },
+        "positional": true,
+        "distanceModel": "linear",
+        "rolloffFactor": 1,
+        "maxDistance": 25,
+        "loop": true,
+        "paused": false
+      },
+      "name": "Ladybird_Seaholm_VO.mp3"
+    },
+    "61790d75-a077-4c22-be35-144b9683ab2e": {
+      "id": "61790d75-a077-4c22-be35-144b9683ab2e",
+      "position": [
+        -2.6219307488115424,
+        1.1361436213891283,
+        -6.33647710532386
+      ],
+      "rotation": [
+        0,
+        0.3379163352230621,
+        0,
+        0.9411761526884408
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "1d65ffb7-8ac2-4d4f-bcaf-2cd3a530fddc",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/bird_1.glb"
+        },
+        "animationClip": "ArmatureAction",
+        "loop": true
+      },
+      "name": "bird_1.glb (1)"
+    }
+  },
+  "spaces": {
+    "e4bde5d1-83f0-489f-bc23-f322a3163af2": {
+      "id": "e4bde5d1-83f0-489f-bc23-f322a3163af2",
+      "name": "Default",
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+    }
+  },
+  "entrySpaceId": "e4bde5d1-83f0-489f-bc23-f322a3163af2",
+  "historyVersion": "m9rvyjvb"
+}
